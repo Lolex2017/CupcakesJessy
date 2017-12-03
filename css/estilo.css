@@ -1,0 +1,12 @@
+/*Autor: Ronald H. Ortega Trujillo
+Proyecto: CupcakesJessy*/
+
+@charset "utf-8";
+
+/*Google fonts / pt serif*/
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i');
+@import url(01-general.css);
+@import url(02-header-aside.css);
+@import url(03-contenido.css);
+@import url(04-footer.css);
+@import url(05-form.css);

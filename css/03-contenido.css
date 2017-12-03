@@ -1,0 +1,198 @@
+@charset "utf-8";
+
+#contenido{
+	background: url(../img/contenido-bg.png);
+	padding-bottom: 70px;
+
+	box-shadow: 0 0 5px rgba(0,0,0,.7);
+
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+/******DESTACADO******/
+#sectionDestacado{
+	position: relative;
+	min-height: 500px;
+
+}
+
+#sectionDestacado.imagenDestacadaHome{
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 4;
+
+}
+
+#sectionDestacado header{
+	top: 40px;
+	border-left: 25px solid #b11d1d;
+	padding-left: 15px;
+
+	z-index: 5;
+	position: absolute;
+}
+
+#sectionDestacado header h1 a,
+#sectionDestacado header h2 a{
+	color: #E6B7CB;
+	text-shadow: 2px 2px 2px rgba(0,0,0,.7);
+
+}
+
+/***************** TESTIMONIO *******************/
+#testimonioHome{
+	background: #d8c1a1;
+	background: rgba(198,162,117,.5);
+	padding: 30px 25px;
+	overflow: hidden;
+}
+	#testimonioHome img{
+		border: solid 2px white;
+		float: left;
+	}
+	
+	#testimonioHome .textoTestimonio {
+		float: right;
+		width: 540px;
+	}
+
+		#testimonioHome .textoTestimonio blockquote{
+			text-shadow: 1px 1px 0 rgba(255,255,255,.5);
+			border-bottom: 1px solid #a69781;
+			padding-bottom: 10px;
+
+		}
+
+		#testimonioHome .textoTestimonio >p {
+			border-top: 1px solid #ebddcb;
+			padding-top: 10px;
+			color: #5b4a31;
+			font-weight: 700;
+			font-size: 12px;
+		}
+
+/********* PREPARACIONES HOME*************/
+#preparacionesHome{
+	overflow: hidden;
+	padding: 30px 25px 0 25px;
+	text-shadow: 0 1px 0 white;
+}
+
+	#preparacionesHome h2{
+		font-size: 17px;
+		margin-bottom: 15px;
+	}
+
+	#preparacionesHome img{
+		border: solid 2px white;
+		margin-bottom: 20px;
+	}
+
+	#preparacionesHome a{
+		font-weight: 700;
+	}
+
+/********* PAGINAS INTERNAS ************/
+.pagina-interna{
+	padding: 0 25px;
+	text-shadow: 0 1px 0 white;
+}
+
+	.pagina-interna header{
+		background: #b11d1d;
+		width: 670px;
+		position: relative;
+		left:-25px;
+		border-top: solid 6px #b11d1d;
+		margin-bottom: 45px;
+	}
+
+		.pagina-interna header img{
+			-webkit-box-shadow: 0px 80px 59px -82px rgba(0,0,0,1);
+			-moz-box-shadow: 0px 80px 59px -82px rgba(0,0,0,1);
+			box-shadow: 0px 80px 59px -82px rgba(0,0,0,1);
+			border: none;
+			float: none;
+		}
+
+		.pagina-interna header hgroup{
+			padding: 35px 25px;
+			text-shadow: 0 1px 0 #7d1414;			
+		}
+			.pagina-interna header hgroup h1,
+			.pagina-interna header hgroup h2{
+				color: white;
+			}
+
+			.pagina-interna header hgroup h1{
+				font-size: 30px;
+				margin-bottom: 15px;
+			}
+
+			.pagina-interna header hgroup h2{
+				font-size: 15px;
+				font-weight: normal;
+				font-style: normal;
+			}
+
+
+
+	.pagina-interna img,
+	.pagina-interna iframe{
+		border: 2px solid white;
+	}
+
+	.pagina-interna p{
+		margin: 18px 0;
+	}
+
+	.pagina-interna hr{
+		width: 100%;
+		margin: 30px 0;
+		height: 1px;
+		border-bottom: solid 1px #7d7160;		
+	}
+
+/*********** PREPARACIONES ************/
+#preparaciones img{
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+
+/*********** Eventos ************/
+#eventos img{
+	margin-bottom: 15px;
+}
+
+
+/*********** Galería ************/
+#galeria img{
+		margin: 0 20px 22px 0;
+		float: left;
+}
+
+	#galeria a:nth-child(3n) img{
+		margin-right: 0;
+	}	
+
+	#galeria a img:hover{
+		-webkit-transition: all 0.3s linear;
+		-moz-transition: all 0.3s linear;
+		-ms-transition: all 0.3s linear;
+		-o-transition: all 0.3s linear;
+		transition: all 0.3s linear;
+	}
+	#galeria a img:hover{
+		border-color:#7d7160;
+	}
+
+#galeriaImagenes{
+	overflow: hidden;
+}

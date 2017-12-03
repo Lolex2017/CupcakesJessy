@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+footer{
+	margin-top: 17px;	
+	overflow: hidden;	
+	margin-bottom: 30px;	
+}
+
+.logoFooter{
+	float: left;	
+}
+
+.copyRightFooter{
+	float: right;	
+	margin-top: 10px;	
+	line-height: 170%;	
+	font-weight: 700;	
+	font-style: italic;	
+	color: black;	
+	text-align: right;	
+}
+

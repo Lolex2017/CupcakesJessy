@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+#bloqueIzq header {
+	background: url() #f6f2ec;
+	border-top: 6px solid #b11d1d;
+	padding: 34px 20px 48px 20px;
+	position: relative;
+	z-index: 4;
+
+	box-shadow: 0 0 5px rgba(0,0,0,.7);
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,.7);
+	-moz-box-shadow: 0 0 5px rgba(0,0,0,.7);
+	-ms-box-shadow: 0 0 5px rgba(0,0,0,.7);
+	-o-box-shadow: 0 0 5px rgba(0,0,0,.7);
+
+}
+
+#bloqueIzq header hgroup{
+	height: 156px;
+	background: url(../img/logoHeader.png) center top no-repeat;
+	overflow: hidden;
+}
+
+#bloqueIzq header hgroup h1 a{
+	height: 156px;
+	width: 210;
+	display: block;
+	text-indent: -999999px;
+	overflow: hidden;
+}
+
+#bloqueIzq header hgroup h2{
+	text-indent: -999999px;
+}
+
+#bloqueIzq header nav {
+	text-align: center;
+	margin-top: 25px;
+	text-transform: uppercase;	
+}
+	
+	#bloqueIzq header nav ul {
+		background: url(../img/menu-separador.png) center bottom no-repeat;
+		padding-bottom: 1px;
+	}
+	#bloqueIzq header nav ul li{
+		background: url(../img/menu-separador.png) center top no-repeat;
+		padding-top: 1px
+	}
+
+	#bloqueIzq header nav ul li a{
+		color: #4c2f04;
+		padding: 8px;
+		display: block;
+		-webkit-transition: color 0.4s linear;
+		-moz-transition: color 0.4s linear;
+		-ms-transition: color 0.4s linear;
+		-o-transition: color 0.4s linear;
+		transition: color 0.4s linear;
+	}
+
+	#bloqueIzq header nav ul li a:hover {
+		color: #b11d1d;
+		text-decoration: none;
+	}
+
+	#bloqueIzq header nav ul li.actual a{
+		background: url(../img/menu-hvr-bg.png) center top repeat-y;
+		color: #b11d1d;
+	}
+
+#bloqueIzq aside{
+	background: #b11d1d;
+	margin: 0 6px 0 5px;
+	padding: 20px 0 30px 0;
+	text-align: center;
+	color:white;
+
+	position: relative;
+	z-index: 3;
+	box-shadow: 0 0 5px rgba(0,0,0,.3);
+
+	/*sombra interna superior*/
+	-webkit-box-shadow: inset 0px 80px 59px -82px rgba(0,0,0,1);
+	-moz-box-shadow: inset 0px 80px 59px -82px rgba(0,0,0,1);
+	box-shadow: inset 0px 80px 59px -82px rgba(0,0,0,1);
+}
+
+	#bloqueIzq aside #pedidos{
+		font-size: 14px;
+	}
+	#bloqueIzq aside #pedidos span{
+		display: block;
+		font-size: 20px;
+	}
