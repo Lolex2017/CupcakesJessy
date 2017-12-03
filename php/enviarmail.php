@@ -71,7 +71,7 @@ $from = "From: $email\r\n";
 /**************************************
 Ingresa mail receptor
 **************************************/
-mail("jriosvelazque@gmail.com", $subject, $message,$from);
+mail("ronaldot2013@gmail.com", $subject, $message,$from);
 ?>
 
 <script type="text/javascript">
